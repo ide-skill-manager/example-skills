@@ -1,0 +1,40 @@
+{
+  "name": "example-skills",
+  "description": "Public test marketplace of sample plugins for the Agentry plugin. Each plugin demonstrates one component type from the agent-plugins spec.",
+  "owner": {
+    "name": "ide-skill-manager"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-reviewer",
+      "source": "code-reviewer",
+      "description": "Skill that reviews a diff for bugs, security issues, and style violations.",
+      "category": "code-review",
+      "tags": ["skill", "review", "diff"]
+    },
+    {
+      "name": "pr-summarizer",
+      "source": "pr-summarizer",
+      "description": "Slash commands (/pr-summarize, /pr-checklist) that turn a diff into a PR body and review checklist.",
+      "category": "workflow",
+      "tags": ["commands", "pull-request"]
+    },
+    {
+      "name": "commit-message-writer",
+      "source": "commit-message-writer",
+      "description": "Single-skill-at-root plugin plus a PreToolUse/PostToolUse hook pair that validates and logs git commits.",
+      "category": "workflow",
+      "tags": ["skill", "hooks", "commit"]
+    },
+    {
+      "name": "repo-toolkit",
+      "source": "repo-toolkit",
+      "description": "Subagent (repo-explorer) and a bundled local MCP server that exposes git metadata as tools.",
+      "category": "exploration",
+      "tags": ["agent", "mcp"]
+    }
+  ]
+}

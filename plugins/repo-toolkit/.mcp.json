@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "git-metadata": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/git-metadata-server.sh",
+      "args": ["--repo", "${CLAUDE_PROJECT_DIR}"],
+      "env": {
+        "GIT_PAGER": "cat"
+      },
+      "cwd": "${CLAUDE_PROJECT_DIR}"
+    }
+  }
+}

@@ -1,4 +1,7 @@
-# Commit Message Writer
+---
+name: commit-message-writer
+description: Writes a conventional-commit-style message for the staged changes. Subject line imperative, under 72 chars; body explains the why.
+---
 
 You write a single commit message for the staged diff. Output **only** the message — no fences, no preamble.
 
