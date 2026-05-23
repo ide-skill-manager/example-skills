@@ -1,0 +1,13 @@
+{
+  "name": "repo-toolkit",
+  "displayName": "Repo Toolkit",
+  "description": "Bundles a repo-explorer subagent and a local MCP server that exposes git metadata as tools.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ide-skill-manager"
+  },
+  "homepage": "https://github.com/ide-skill-manager/example-skills",
+  "repository": "https://github.com/ide-skill-manager/example-skills",
+  "license": "MIT",
+  "keywords": ["agent", "mcp", "git"]
+}

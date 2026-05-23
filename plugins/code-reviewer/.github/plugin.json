@@ -1,0 +1,13 @@
+{
+  "name": "code-reviewer",
+  "displayName": "Code Reviewer",
+  "description": "Reviews a diff for bugs, security issues, performance concerns, and style violations. Returns prioritized findings with file:line references.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ide-skill-manager"
+  },
+  "homepage": "https://github.com/ide-skill-manager/example-skills",
+  "repository": "https://github.com/ide-skill-manager/example-skills",
+  "license": "MIT",
+  "keywords": ["review", "diff", "security"]
+}

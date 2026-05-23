@@ -1,0 +1,15 @@
+{
+  "name": "commit-message-writer",
+  "displayName": "Commit Message Writer",
+  "description": "Writes a conventional-commit-style message for the staged changes and runs a commit-msg validation hook.",
+  "version": "1.1.0",
+  "author": {
+    "name": "ide-skill-manager"
+  },
+  "homepage": "https://github.com/ide-skill-manager/example-skills",
+  "repository": "https://github.com/ide-skill-manager/example-skills",
+  "license": "MIT",
+  "keywords": ["commit", "git", "conventional-commits"],
+  "skills": ["./"],
+  "hooks": "./hooks/hooks.json"
+}
