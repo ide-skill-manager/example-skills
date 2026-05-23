@@ -1,0 +1,11 @@
+{
+  "name": "commit-message-writer",
+  "version": "1.1.0",
+  "displayName": "Commit Message Writer",
+  "description": "Writes a conventional-commit-style message for the staged changes. Subject line imperative, under 72 chars; body explains the why.",
+  "publisher": "ide-skill-manager",
+  "categories": ["AI", "Workflow"],
+  "keywords": ["commit", "git", "conventional commits"],
+  "license": "MIT",
+  "repository": "https://github.com/ide-skill-manager/example-skills"
+}
