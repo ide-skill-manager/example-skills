@@ -2,7 +2,7 @@
   "name": "pr-summarizer",
   "displayName": "PR Summarizer",
   "description": "Slash commands that turn a diff into a PR title, body, and reviewer checklist.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "ide-skill-manager"
   },

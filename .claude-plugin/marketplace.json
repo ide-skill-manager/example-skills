@@ -35,6 +35,13 @@
       "description": "Subagent (repo-explorer) and a bundled local MCP server that exposes git metadata as tools.",
       "category": "exploration",
       "tags": ["agent", "mcp"]
+    },
+    {
+      "name": "api-doc-generator",
+      "source": "api-doc-generator",
+      "description": "Experimental skill that drafts API reference documentation from source code annotations and route handlers.",
+      "category": "workflow",
+      "tags": ["skill", "experimental", "api", "docs"]
     }
   ]
 }
